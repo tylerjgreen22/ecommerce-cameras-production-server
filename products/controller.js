@@ -1,6 +1,6 @@
 const pool = require('../db/index');
 const { Router } = require('express');
-const path = require('node:path');
+// const path = require('node:path');
 
 const getProducts = (req, res) => {
     const sql = "SELECT * FROM products";
